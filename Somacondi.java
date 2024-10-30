@@ -17,6 +17,8 @@ public class Somacondi {
 
 		System.out.println("Digite o valor de C: ");
 		float C = leitor.nextFloat();
+		
+		leitor.close();
 
 		soma = A + B;
 
@@ -30,6 +32,6 @@ public class Somacondi {
 			System.out.println("A soma de A + B é maior que C");
 		}
 
-		leitor.close();
+		
 	}
 }
